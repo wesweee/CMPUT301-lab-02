@@ -18,4 +18,8 @@ class CityRepository {
     fun addCity(city: String) {
         _cities.add(city)
     }
+
+    fun deleteCity(city: String) {
+        _cities.remove(city)
+    }
 }
